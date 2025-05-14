@@ -1,0 +1,95 @@
+/* BRAYDEN BALLEW FINAL PROJECT (THEME F1) (5/14/25)
+web 114
+CSS STYLE PAGE */ 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  background-image:
+    linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.05) 75%, rgba(255,255,255,0.05)),
+    linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.05) 75%, rgba(255,255,255,0.05));
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+  color: #ff6b6b; 
+}
+main.quiz-placement {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ff6b6b;
+  border-radius: 8px;
+  padding: 20px;
+}
+main.quiz-placement header h1 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  text-align: center;
+  color: #ff6b6b;
+}
+#progress {
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+section#question-placement {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#question {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+#choices {
+  list-style: none;
+  padding: 0;
+}
+#choices li {
+  margin-bottom: 8px;
+}
+.choice-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #660000; 
+  border: 1px solid #ff6b6b;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: left;
+}
+.choice-btn:hover {
+  background-color: #800000;
+}
+#result {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+footer.controls {
+  text-align: center;
+}
+#next-btn {
+  padding: 10px 20px;
+  background-color: #cc0000;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+#next-btn:hover {
+  background-color: #e60000;
+}
